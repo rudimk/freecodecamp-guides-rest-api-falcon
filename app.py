@@ -2,7 +2,7 @@ import falcon
 
 from timestamp import Timestamp
 
-api = falcon.API()
+api = application = falcon.API()
 
 timestamp = Timestamp()
 
